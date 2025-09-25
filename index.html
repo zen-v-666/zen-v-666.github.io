@@ -26,12 +26,22 @@
         }
 
         .container {
-            max-width: 800px;
+            width: 90%; /* Using a percentage for a full-width feel on larger screens */
             margin: auto;
             background-color: #ffffff;
             padding: 2rem;
             border-radius: var(--border-radius);
             box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+        }
+
+        .logo-container {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .logo {
+            max-width: 200px;
+            height: auto;
         }
 
         h1 {
@@ -76,9 +86,12 @@
 <body>
 
     <div class="container">
-        <h1>Chandigarh University</h1>
+        <div class="logo-container">
+            <img class="logo" src="https://www.cuchd.in/about/assets/images/cu-logo.png" alt="Chandigarh University Logo">
+        </div>
+        
 
-        <img class="image-placeholder" src="https://placehold.co/800x450/e8eaf6/546e7a?text=Chandigarh+University" alt="A modern university campus building with students in the background.">
+        <img class="image-placeholder" src="https://careermantra.org/front_assets/images/Chandigarh_University.jpg" alt="A modern university campus building with students in the background.">
 
         <h3>Academics and Global Outlook</h3>
         <p>Chandigarh University (CU), located in Gharuan, Mohali, is a leading private university in North India that has gained recognition for its rapid growth and global outlook. It offers a variety of programs in engineering, business, law, arts, design, hospitality, and emerging fields like artificial intelligence and business analytics. The university is widely appreciated for its placement opportunities, tie-ups with international institutions, and modern teaching methods.</p>
